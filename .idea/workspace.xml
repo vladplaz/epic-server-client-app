@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="846c634f-f000-4df2-83c0-c4f2a319b755" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client/vue-client" />
+  </component>
+  <component name="ProjectId" id="1eoGlXHHpK3dH6e7ktlYt0nMN3W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.6.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.0.26" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/mysql-server" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/angular-client" />
+      <recent name="$PROJECT_DIR$/client/react-client/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/mysql-server" />
+      <recent name="$PROJECT_DIR$/server/mongo-server" />
+      <recent name="$PROJECT_DIR$/server/mysql-server/middlewares" />
+      <recent name="$PROJECT_DIR$/server/graphql-server" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="846c634f-f000-4df2-83c0-c4f2a319b755" name="Default Changelist" comment="" />
+      <created>1594980686490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594980686490</updated>
+      <workItem from="1594980698062" duration="8133000" />
+      <workItem from="1595064320341" duration="283000" />
+      <workItem from="1595064635106" duration="36575000" />
+      <workItem from="1595155016870" duration="21308000" />
+      <workItem from="1595264319966" duration="1490000" />
+      <workItem from="1595266343064" duration="7372000" />
+      <workItem from="1595320410864" duration="4072000" />
+      <workItem from="1595354121830" duration="6372000" />
+      <workItem from="1595412587191" duration="12967000" />
+      <workItem from="1595431989041" duration="5537000" />
+      <workItem from="1595439153422" duration="3869000" />
+      <workItem from="1595589289012" duration="11289000" />
+      <workItem from="1595667218002" duration="14600000" />
+      <workItem from="1595787584463" duration="5757000" />
+      <workItem from="1595830578115" duration="30410000" />
+      <workItem from="1595960986113" duration="3953000" />
+      <workItem from="1596108631635" duration="17950000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1108" y="234" width="734" height="646" key="#Inspections" timestamp="1595176224767">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1108" y="234" width="734" height="646" key="#Inspections/0.27.1920.1053@0.27.1920.1053" timestamp="1595176224767" />
+    <state x="632" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595098785418">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="632" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1595098785418" />
+    <state x="1119" y="351" width="588" height="411" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595077919975">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1119" y="351" width="588" height="411" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1595077919975" />
+    <state x="1334" y="271" width="366" height="578" key="#com.intellij.ide.util.MemberChooser" timestamp="1595848275051">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1334" y="271" width="366" height="578" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1595848275051" />
+    <state width="761" height="273" key="GridCell.Tab.0.bottom" timestamp="1595682031607">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="761" height="273" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1595682031607" />
+    <state width="761" height="273" key="GridCell.Tab.0.center" timestamp="1595682031604">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="761" height="273" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1595682031604" />
+    <state width="761" height="273" key="GridCell.Tab.0.left" timestamp="1595682031602">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="761" height="273" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1595682031602" />
+    <state width="761" height="273" key="GridCell.Tab.0.right" timestamp="1595682031606">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="761" height="273" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1595682031606" />
+    <state x="896" y="188" width="1024" height="737" key="SettingsEditor" timestamp="1595668213346">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="896" y="188" width="1024" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1595668213346" />
+    <state x="1136" y="166" width="772" height="782" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595597317183">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1136" y="166" width="772" height="782" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1595597317183" />
+    <state x="1276" y="467" width="440" height="179" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596122969330">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1276" y="467" width="440" height="179" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1596122969330" />
+    <state x="1144" y="252" key="run.anything.popup" timestamp="1595860442441">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1144" y="252" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1595860442441" />
+    <state x="1080" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1595680597539">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1080" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1595680597539" />
+  </component>
+</project>
