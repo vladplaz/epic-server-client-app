@@ -1,0 +1,26 @@
+#nav-mobile {
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+a.active {
+  background-color: #5f0e90;
+}
+
+button {
+  background-color: #8626c1 !important;
+}
+
+.hello {
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+.image-profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  right: 19rem;
+  top: 0.8rem;
+}

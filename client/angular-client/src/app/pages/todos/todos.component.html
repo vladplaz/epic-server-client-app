@@ -1,0 +1,15 @@
+<div class="container" *ngIf="!loading;else load">
+  <app-todo-main-form></app-todo-main-form>
+  <app-search-form></app-search-form>
+  <div class="todos" *ngIf="todos.length>0;else no_todos">
+    <app-todo-list [todos]="todos"></app-todo-list>
+  </div>
+  <ng-template #no_todos>
+    <p *ngIf="isSearch" class="center no-todos">No items by this search</p>
+    <p *ngIf="!isSearch" class="center no-todos">Lets begin</p>
+  </ng-template>
+</div>
+
+<ng-template #load>
+  <app-spinner></app-spinner>
+</ng-template>

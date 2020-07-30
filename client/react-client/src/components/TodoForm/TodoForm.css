@@ -1,0 +1,10 @@
+.form .input-field{
+  width: 35.8rem !important;
+  margin:0;
+}
+
+.form{
+  position: relative;
+  bottom: 2rem;
+  margin: 0;
+}

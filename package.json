@@ -1,0 +1,16 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "react-mongo": "concurrently \"npm start --prefix server/mongo-server\" \"npm start --prefix client/react-client\"",
+    "install-react-mongo": "concurrently \"npm i --prefix server/mongo-server\" \"npm i --prefix client/react-client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}

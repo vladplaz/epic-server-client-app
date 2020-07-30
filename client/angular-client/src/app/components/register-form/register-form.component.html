@@ -1,0 +1,56 @@
+<div class="row">
+  <form class="col s12" [formGroup]="form" (ngSubmit)="onSubmit($event)">
+    <div class="row">
+      <div class="input-field">
+        <i class="material-icons prefix">account_circle</i>
+        <input id="username" type="text"
+               name="userName"
+               formControlName="userName"/>
+        <label for="username">Username</label>
+        <span class="helper-text red-text"
+              *ngIf="form.get('userName').invalid&&
+form.get('userName').touched"
+              data-error="wrong"
+              data-success="right">Username is required</span>
+      </div>
+      <div class="input-field">
+        <i class="material-icons prefix">alternate_email</i>
+        <input id="email_r" type="text"
+               name="email"
+               formControlName="email"/>
+        <label for="email_r">Email</label>
+        <span class="helper-text red-text"
+              *ngIf="form.get('email').invalid&&
+form.get('email').touched"
+              data-error="wrong"
+              data-success="right">Email is required</span>
+      </div>
+      <div class="input-field">
+        <i class="material-icons prefix">vpn_key</i>
+        <input id="password_r" type="password"
+               name="password"
+               formControlName="password"/>
+        <label class="password_r">Password</label>
+        <span class="helper-text red-text"
+              *ngIf="form.get('password').invalid&&
+form.get('password').touched">
+          <span class="helper-text red-text"
+                *ngIf="form.get('password').errors['required']">
+            Password is required
+        </span>
+          <span class="helper-text red-text"
+                *ngIf="form.get('password').errors['minlength']">
+            Password min length is 6
+        </span>
+        </span>
+      </div>
+      <div class="input-field">
+        <button class="btn"
+                [disabled]="loading||form.invalid"
+                type="submit"
+        >Register
+        </button>
+      </div>
+    </div>
+  </form>
+</div>

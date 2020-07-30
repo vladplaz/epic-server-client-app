@@ -1,0 +1,22 @@
+<div id="modal" class="modal" #modalRef>
+  <div class="modal-content">
+    <div class="input-field">
+      <input type="text" value={text}
+             [(ngModel)]="text"
+             (keydown)="keyHandler($event)"
+             #input/>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button
+        (click)="onFinishCancel()"
+        class="btn waves-effect waves-green btn-flat">
+      Cancel
+    </button>
+    <button
+        (click)="onFinishConfirm()"
+        class="btn waves-effect waves-green btn-flat">
+      Ok
+    </button>
+  </div>
+</div>

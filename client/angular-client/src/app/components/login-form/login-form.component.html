@@ -1,0 +1,33 @@
+<div class="row">
+  <form class="col s12" [formGroup]="form" (ngSubmit)="onSubmit($event)">
+    <div class="row">
+      <div class="input-field">
+        <i class="material-icons prefix">alternate_email</i>
+        <input id="email_l" type="text"
+               name="email"
+               formControlName="email"/>
+        <label for="email_l">Email</label>
+        <span *ngIf="form.get('email').invalid&&
+form.get('email').touched"
+              class="helper-text red-text">Email is required</span>
+      </div>
+      <div class="input-field">
+        <i class="material-icons prefix">vpn_key</i>
+        <input id="password_l" type="password"
+               name="password"
+               formControlName="password"/>
+        <label for="password_l">Password</label>
+        <span *ngIf="form.get('password').invalid&&
+form.get('password').touched"
+              class="helper-text red-text">Password is required</span>
+      </div>
+      <div class="input-field">
+        <button class="btn"
+                [disabled]="loading||form.invalid"
+                type="submit"
+        >Login
+        </button>
+      </div>
+    </div>
+  </form>
+</div>

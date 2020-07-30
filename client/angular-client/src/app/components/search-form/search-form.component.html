@@ -1,0 +1,9 @@
+<div class="input-field search">
+  <input type="text" [(ngModel)]="text"
+         placeholder="Search items..."
+         class="input-search"
+         (ngModelChange)="changeHandler($event)"/>
+  <i class="material-icons search-icon"
+     [ngClass]="{ 'is-search':isSearch }"
+  >search</i>
+</div>

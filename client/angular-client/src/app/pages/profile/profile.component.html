@@ -1,0 +1,32 @@
+<div class="container" *ngIf="!loading;else load">
+  <div class="row">
+    <form class="col s6" (ngSubmit)="submitHandler($event)">
+      <div class="image">
+        <img class="materialboxed" width="200"
+             [src]="imagePreview"/>
+      </div>
+      <div class="file-field input-field">
+        <div class="btn">
+          <span>File</span>
+          <input type="file"
+                 (change)="imageHandler($event)"/>
+        </div>
+        <div class="file-path-wrapper">
+          <input class="file-path" type="text"/>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input type="text"
+                 placeholder="Username"
+                 [(ngModel)]="userName"
+                 name="userName"/>
+        </div>
+      </div>
+      <button class="btn" type="submit">Save</button>
+    </form>
+  </div>
+</div>
+
+<ng-template #load>
+  <app-spinner></app-spinner>
+</ng-template>

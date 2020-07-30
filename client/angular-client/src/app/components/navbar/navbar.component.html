@@ -1,0 +1,28 @@
+<nav>
+  <div class="nav-wrapper #6a1b9a purple darken-3">
+    <ng-container *ngIf="auth.isAuth">
+      <ul id="nav-mobile1" class="left">
+        <li class="hello"><span>Hi {{auth.userName|titlecase}}</span></li>
+      </ul>
+    </ng-container>
+    <a routerLink="/todos" class="brand-logo center">
+      Todos App</a>
+    <ul id="nav-mobile" class="right">
+      <li *ngIf="!auth.isAuth">
+        <a routerLink="login">Login/Register</a>
+      </li>
+      <ng-container *ngIf="auth.isAuth">
+        <img [src]="auth.imageUrl" class="image-profile" alt="profile"/>
+        <li>
+          <a routerLink="/todos">Todos</a>
+        </li>
+        <li>
+          <a routerLink="/profile">Profile</a>
+        </li>
+        <li (click)="logout()" class="logout">
+          <a>Logout</a>
+        </li>
+      </ng-container>
+    </ul>
+  </div>
+</nav>

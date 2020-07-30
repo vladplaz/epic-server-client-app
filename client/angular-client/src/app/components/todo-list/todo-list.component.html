@@ -1,0 +1,6 @@
+<div class="item" *ngFor="let todo of todos;index as ind">
+  <div class="circle"></div>
+  <div *ngIf="ind < todos.length - 1" class="line"></div>
+  <app-todo-list-item [todo]="todo">
+    </app-todo-list-item>
+</div>

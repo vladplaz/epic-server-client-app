@@ -1,0 +1,10 @@
+<ng-container *ngIf="!loading;else load">
+  <app-navbar></app-navbar>
+  <div class="container">
+    <router-outlet></router-outlet>
+    <notifier-container></notifier-container>
+  </div>
+</ng-container>
+<ng-template #load>
+  <app-spinner></app-spinner>
+</ng-template>

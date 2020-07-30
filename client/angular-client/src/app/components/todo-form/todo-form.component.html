@@ -1,0 +1,10 @@
+<div class="row form">
+  <div class="input-field">
+    <input placeholder="Add branch...."
+           class="materialize-textarea"
+           [(ngModel)]="text"
+           (keydown)="submitHandler($event)"
+           #input
+    />
+  </div>
+</div>

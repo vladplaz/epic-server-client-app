@@ -1,0 +1,22 @@
+.modal {
+  height: 14rem !important;
+  overflow: hidden;
+  max-height: 500%;
+  z-index: 2000;
+  width: 28rem;
+}
+
+.modal .modal-content {
+  padding-bottom: 0 !important;
+}
+
+.modal input {
+
+}
+
+.modal button {
+  margin-right: 1.2rem !important;
+  color: white;
+  border-radius: 5px;
+  background-color: #5f0e90;
+}

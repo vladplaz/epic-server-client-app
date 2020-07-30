@@ -1,0 +1,19 @@
+.no-todos {
+  font-weight: bold;
+  font-size: 18px;
+  color: #a362cd;
+}
+
+input::placeholder {
+  color: #bf86e3;
+}
+
+.todos{
+  margin-left: 15%;
+}
+
+@media screen and (max-width: 1280px) {
+  .todos {
+    margin-top: 3rem;
+  }
+}

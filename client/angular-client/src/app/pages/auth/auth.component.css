@@ -1,0 +1,29 @@
+.tabs {
+  width: 40rem;
+  border: none;
+}
+
+.tabs a {
+  color: #6a1b9a !important;
+}
+
+.tabs .indicator {
+  background-color: #a340e0;
+}
+
+.input-field {
+  width: 40rem;
+  margin: 2rem auto;
+}
+
+.input-field button {
+  float: right;
+}
+
+label {
+  width: 5rem !important;
+}
+
+#register, #login {
+  transition: all 2s;
+}

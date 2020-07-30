@@ -1,0 +1,12 @@
+export const FETCH_TODOS = 'FETCH_TODOS'
+export const DELETE_TODOS = 'DELETE_TODOS'
+export const EDIT_TODO = 'EDIT_TODO'
+export const MARK_STARED_TODO = 'MARK_STARED_TODO'
+export const MARK_EXECUTED_TODO = 'MARK_EXECUTED_TODO'
+export const ADD_TODO = 'ADD_TODO'
+export const CHANGE_TODO_OPEN = 'CHANGE_TODO_OPEN'
+export const ON_SEARCH_TODOS = 'ON_SEARCH_TODOS'
+
+export const LOGIN_USER = 'LOGIN_USER'
+export const RESET_USER = 'RESET_USER'
+export const EDIT_USER = 'EDIT_USER'

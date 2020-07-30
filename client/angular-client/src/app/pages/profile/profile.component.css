@@ -1,0 +1,15 @@
+.image{
+  margin-top: 2rem;
+}
+
+.file-path-wrapper{
+  width: 20rem !important;
+}
+
+.input-field{
+  width: 25rem !important;
+}
+
+img{
+  border-radius: 5px;
+}

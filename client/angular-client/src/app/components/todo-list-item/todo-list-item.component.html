@@ -1,0 +1,55 @@
+<div class="todo-container">
+  <div class="todo-item">
+    <i class="material-icons prefix edit"
+       (click)="editHandler()"
+    >mode_edit</i>
+    <div class="todo-item-text">
+      {{todo.text}}
+    </div>
+    <div *ngIf="todo.executed" class="executed"></div>
+    <div class="todo-item-actions">
+      <p>
+        <label>
+          <input type="checkbox"
+                 [checked]="todo.executed"
+                 (change)="execHandler()"
+          />
+          <span></span>
+        </label>
+      </p>
+      <i class="material-icons prefix star"
+         [ngClass]="{ 'stared':todo.stared }"
+         (click)="starHandler()">
+        {{todo.stared ? 'star' : 'star_border'}}
+      </i>
+      <i *ngIf="!isSearch" class="material-icons prefix delete"
+         (click)="deleteHandler()"
+      >
+        delete
+      </i>
+    </div>
+    <i *ngIf="todo.todos.length>0&&!isSearch" class="material-icons open"
+       (click)="openHandler()"
+    >
+      keyboard_arrow_down
+    </i>
+    <i *ngIf="!isSearch" class="material-icons add"
+       (click)="createTodoHandler()"
+    >
+      add
+    </i>
+  </div>
+
+  <div class="next" *ngIf="isCreating">
+    <app-todo-form [parent]="todo.id">
+    </app-todo-form>
+  </div>
+  <div class="next" *ngIf="todo.isOpen">
+    <app-todo-list [todos]="todo.todos">
+    </app-todo-list>
+  </div>
+  <app-edit-modal *ngIf="isEdit"
+                  [todoText]="todo.text"
+                  (onEditFinish)="onEditFinish($event)"
+  ></app-edit-modal>
+</div>

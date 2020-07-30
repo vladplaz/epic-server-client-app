@@ -1,0 +1,7 @@
+.input-field i {
+  cursor: pointer;
+}
+
+i.stared{
+  color: yellow;
+}
